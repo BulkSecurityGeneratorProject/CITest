@@ -1,7 +1,9 @@
 language: java 
 jdk:
     - oraclejdk8
-before_install: mvn clean
+before_install: 
+    - mvn clean
+    - npm install -g npm
 install: mvn install -Pprod
 notifications:
   webhooks:
