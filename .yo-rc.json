@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "CITest",
+    "packageName": "com.ippon.citest",
+    "packageFolder": "com/ippon/citest",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": false,
+    "rememberMeKey": "8ea76ee4e74cfab0ff5e394fcfe4f64c2a6ddfe6"
+  }
+}

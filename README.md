@@ -1,2 +1,2 @@
-# CITest
-Testing jhipster app: github->travis->heroku
+README for CITest
+==========================
