@@ -1,10 +1,6 @@
-language: node_js
-node_js:
-  - "0.12"
-sudo: false
-before_install: npm install -g grunt-cli
-install: npm install
-before_script: grunt build
+language: java 
+before_install: mvn clean
+install: mvn install -Pprod
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
